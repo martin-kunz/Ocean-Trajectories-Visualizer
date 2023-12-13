@@ -17,14 +17,4 @@ tempfile/
 .venv
 env/
 venv/
-pages/__pycache__/homepage.cpython-310.pyc
-code/__pycache__/quadTreeInterface.cpython-310.pyc
-code/__pycache__/quadTree.cpython-310.pyc
-code/__pycache__/interface.cpython-310.pyc
-code/__pycache__/globals.cpython-310.pyc
-code/__pycache__/__init__.cpython-310.pyc
-__pycache__/map.cpython-310.pyc
-code/__pycache__/database.cpython-310.pyc
-code/__pycache__/map_interface.cpython-310.pyc
-__pycache__/map2.cpython-310.pyc
-code/__pycache__/map_interface_test.cpython-310.pyc
+__pycache__/
