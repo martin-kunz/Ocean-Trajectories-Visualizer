@@ -1,0 +1,50 @@
+.Header {
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+}
+
+.subheader {
+    color: black;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.container-subpages-content-qual,
+.tab-subpages {
+    background-color: #ffffff
+}
+
+.markdown-description {
+    font-family: MetaCompPro-Normal, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    color: #404040;
+}
+
+.card-text {
+    line-height: 90%;
+    font-family: MetaCompPro-Normal, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    color: #404040
+}
+
+#selected-data-percentage-accidents,
+#selected-data-percentage-arzneimittel-mec,
+#selected-data-percentage-arzneimittel-chei,
+#selected-data-percentage-arzneimittel-pa {
+    font-family: MetaCompPro-Normal, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    color: #404040;
+}
