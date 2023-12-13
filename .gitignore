@@ -2,10 +2,6 @@
 tempfiles/
 tempfile/
 
-# Data
-data/
-code
-
 # PyCharm
 .idea/
 .idea
