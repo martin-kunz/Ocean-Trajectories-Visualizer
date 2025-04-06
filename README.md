@@ -51,7 +51,7 @@ Because the thresholds for inconsistencies are context-dependent, the app suppor
 
 ```bash
 # Clone repository
-git clone https://github.com/martin-kunz/ocean-trajectories-visualizer.git
+git clone https://github.com/martin-kunz/Ocean-Trajectories-Visualizer.git
 cd ocean-trajectories-visualizer
 
 # (Optional) Create and activate virtual environment
