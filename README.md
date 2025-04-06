@@ -56,15 +56,15 @@ Because the thresholds for inconsistencies are context-dependent, the app suppor
 | `assets/`               | App styling, logos, images |
 | `data/`                 | Sensor & trajectory parquet files (not included) |
 
-
+<br>
 ### 📊 <ins>Data Source</ins>
 
 Data is based on [FerryBox Observations by HZG/Hereon](https://www.ferrybox.com/) and includes:
 - NetCDF sensor observations (`OBS/obs_2013.nc`)
 - Simulated trajectories from June 2013
 
-**Note:** Due to size limitations, original NetCDF datasets are **not included** in this repo.
-
+**Note:** Due to size limitations, original NetCDF datasets are **not included** in this repo.<br>
+👉 [📥 Download dataset (Google Drive)](https://drive.google.com/uc?export=download&id=1Zr7IrKF20V4V6oAmqFYtbyDg2qCClUAq)
 
 ### 📚 <ins>Research Context</ins>
 
