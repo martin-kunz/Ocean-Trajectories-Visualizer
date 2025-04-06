@@ -2,6 +2,7 @@
 
 Interactive Dash application for visualizing and analyzing spatio-temporal uncertainties in extrapolated ocean data. 
 
+<br>
 
 ### 🔍 <ins>Project Goal</ins>
 
@@ -14,6 +15,7 @@ The core objective is to evaluate the reliability of these derived datasets by i
 
 Because the thresholds for inconsistencies are context-dependent, the app supports interactive exploration via adjustable parameters (sensor, threshold, time interval). Visual tools such as heatmaps and time series plots help to locate and interpret where and when uncertainties are most prevalent.
 
+<br>
 
 ### 🧩 <ins>Key Features</ins>
 - 📍 **Interactive Map** with zoom-sensitive heatmap overlays  
@@ -23,6 +25,7 @@ Because the thresholds for inconsistencies are context-dependent, the app suppor
 - 📦 **Trajectory Clustering** for simplified views  
 - 📈 **Histograms & Time Series Charts** of sensor values
 
+<br>
 
 ### 🖼️ <ins>Preview</ins>
 
@@ -42,6 +45,38 @@ Because the thresholds for inconsistencies are context-dependent, the app suppor
 ![nr_uncertainties](./assets/nr_of_uncertainties.png)
 **Figure 4:** Number of uncertain extrapolations over time.
 
+<br>
+
+### 🛠️ <ins>Setup & Installation</ins>
+
+```bash
+# Clone repository
+git clone https://github.com/martin-kunz/ocean-trajectories-visualizer.git
+cd ocean-trajectories-visualizer
+
+# (Optional) Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# Install requirements
+pip install -r requirements.txt
+```
+
+📂 **Important:** Download the dataset from Google Drive and extract its contents into the `data/` directory:
+
+👉📥 [Download dataset (Google Drive)](https://drive.google.com/uc?export=download&id=1Zr7IrKF20V4V6oAmqFYtbyDg2qCClUAq)
+
+```bash
+# After downloading and extracting the data archive
+mv path_to_downloaded_data/* ./data/
+```
+
+```bash
+# Run app
+python app.py
+```
+
+<br>
 
 ### 📁 <ins>Project Structure</ins>
 
@@ -57,14 +92,17 @@ Because the thresholds for inconsistencies are context-dependent, the app suppor
 | `data/`                 | Sensor & trajectory parquet files (not included) |
 
 <br>
+
 ### 📊 <ins>Data Source</ins>
 
 Data is based on [FerryBox Observations by HZG/Hereon](https://www.ferrybox.com/) and includes:
 - NetCDF sensor observations (`OBS/obs_2013.nc`)
 - Simulated trajectories from June 2013
 
-**Note:** Due to size limitations, original NetCDF datasets are **not included** in this repo.<br>
-👉 [📥 Download dataset (Google Drive)](https://drive.google.com/uc?export=download&id=1Zr7IrKF20V4V6oAmqFYtbyDg2qCClUAq)
+📝 **Note:** Due to size limitations, original NetCDF datasets are **not included** in this repo.<br>
+👉📥 [Download dataset (Google Drive)](https://drive.google.com/uc?export=download&id=1Zr7IrKF20V4V6oAmqFYtbyDg2qCClUAq)
+
+<br>
 
 ### 📚 <ins>Research Context</ins>
 
