@@ -8,22 +8,11 @@
 
 #### <ins>Example:</ins>
 
-<figure>
-  <img src="./assets/main_page.png" alt="Main page" width="600"/>
-  <figcaption><strong>Figure 1:</strong> Main page of the application.</figcaption>
-</figure>
-<br>
-<figure>
-  <img src="./assets/heatmap.png" alt="Main page" width="600"/>
-  <figcaption><strong>Figure 2:</strong> Heatmap.</figcaption>
-</figure>
-<br>
-<figure>
-  <img src="./assets/heatmap_parameters.png" alt="Main page" width="600"/>
-  <figcaption><strong>Figure 3:</strong> Heatmap configuration.</figcaption>
-</figure>
-<br>
-<figure>
-  <img src="./assets/nr_of_uncertainties.png" alt="Main page" width="600"/>
-  <figcaption><strong>Figure 4:</strong> Total number of uncertainties.</figcaption>
-</figure>
+![image info](./assets/main_page.png)
+*Figure 1: Main page of the application*<br><br>
+
+![image info](./assets/heatmap.png)<br><br>
+
+![image info](./assets/heatmap_parameters.png)<br><br>
+
+![image info](./assets/nr_of_uncertainties.png)<br><br>
